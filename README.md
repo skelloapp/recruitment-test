@@ -1,10 +1,12 @@
+# Test
+
 You'll find 2 parts to this test:
 
-**1/ Questions**
+## 1. Questions
 
 Take a look at questions.txt and answer the questions presented to you.
 
-**2/ Gilded Rose**
+## 2. The Gilded Rose Kata
 
 The gilded rose kata is a common exercise amongst developers, and will test your refactoring and OOP knowledge.
 The idea is to add the "Conjured" item type, and while doing so, refactor the current code.
@@ -14,9 +16,7 @@ You're welcome to add as many classes, methods as needed, and modify/add unit te
 
 We'll be looking for a safe, scalable, performant code.
 
-*Any questions ? [samy@skello.io](mailto:samy@skello.io)*
-
-# the Gilded Rose Kata
+### Description
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn
 with a prime location in a prominent city run by a friendly innkeeper
@@ -57,14 +57,13 @@ alter the Item class or Items property as those belong to the goblin
 in the corner who will insta-rage and one-shot you as he doesn't
 believe in shared code ownership (you can make the UpdateQuality
 method and Items property static if you like, we'll cover for
-you). Your work needs to be completed by Friday, February 18, 2011
-08:00:00 AM PST.
+you).
 
 Just for clarification, an item can never have its Quality increase
 above 50, however "Sulfuras" is a legendary item and as such its
 Quality is 80 and it never alters.
 
-## Installation Hints
+### Installation Hints
 
 The easiest way is to use bundler to install the dependencies. To do so, you need to install the bundler gem if you haven't already done so
 
@@ -74,8 +73,4 @@ run bundler
 
     bundle
 
-and should be ready to go. Alternatively, you can install the dependencies one by one using gem install, e.g.
-
-    gem install rspec-given
-
-Have a look at the Gemfile for all dependencies.
+and you should be ready to go.
